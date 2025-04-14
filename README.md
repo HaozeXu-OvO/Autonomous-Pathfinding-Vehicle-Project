@@ -7,7 +7,7 @@ This project is a real-time embedded system based on a Raspberry Pi, implementin
 
 The project is built entirely in C++ using the WiringPi library and demonstrates event-driven programming through multithreading and non-blocking socket handling.
 
-## 🛠 Features
+##  Features
 - Line tracking with four infrared sensors
 - Obstacle avoidance using rear infrared sensors
 - Real-time remote command handling
