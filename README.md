@@ -1,25 +1,25 @@
 # Automatic Infrared Tracking Car with Remote Control
 
-## 🚗 Project Description
+##  Project Description
 This project is a real-time embedded system based on a Raspberry Pi, implementing a dual-mode control car:
 1. **Automatic Line Following** using infrared sensors.
 2. **Remote Control** via socket communication over TCP.
 
 The project is built entirely in C++ using the WiringPi library and demonstrates event-driven programming through multithreading and non-blocking socket handling.
 
-## 🛠️ Features
+## 🛠 Features
 - Line tracking with four infrared sensors
 - Obstacle avoidance using rear infrared sensors
 - Real-time remote command handling
 - Separate modules for tracking and remote motor control
 
-## 🔧 Hardware Used
+##  Hardware Used
 - Raspberry Pi
 - L298N Motor Driver Module
 - 4 x Infrared Sensors
 - DC Motors
 
-## 🔌 How to Build and Run
+##  How to Build and Run
 ```bash
 # Compile the tracking system
 g++ -o tracking src/tracking.cpp -lwiringPi -lpthread
@@ -34,7 +34,7 @@ sudo ./tracking
 sudo ./server 8000
 ```
 
-## 📄 Repository Structure
+##  Repository Structure
 ```
 your-project/
 ├── README.md
@@ -47,10 +47,7 @@ your-project/
 └── docs/                 # (Optional) Technical documentation
 ```
 
-## 👤 Authors and Responsibilities
-| Name | Responsibility |
-|------|----------------|
-| You  | Code design, line tracking logic, socket communication, hardware wiring |
+
 
 ## 📄 License
 MIT
