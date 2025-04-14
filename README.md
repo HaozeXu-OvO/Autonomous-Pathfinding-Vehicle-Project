@@ -1,4 +1,4 @@
-# Automatic Infrared Tracking Car with Remote Control
+# Autonomous-Pathfinding-Vehicle-Project
 
 ##  Project Description
 This project is a real-time embedded system based on a Raspberry Pi, implementing a dual-mode control car:
