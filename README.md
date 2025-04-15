@@ -7,6 +7,13 @@ Liyuan yu(3047156)
 Yihan Wang(3047384)
 Zonglin Li(2964559)
 
+##  Team roles and responsibilities
+Runxin Wang(2960774)  
+Haoze Xu(3016472)
+Liyuan yu(3047156)
+Yihan Wang(3047384)
+Zonglin Li(2964559)
+
 ##  Project Description
 This project is a real-time embedded system based on a Raspberry Pi, implementing a dual-mode control car:
 1. **Automatic Line Following** using infrared sensors.
