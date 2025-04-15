@@ -58,4 +58,4 @@ your-project/
 
 ##  License
 MIT License
-Copyright (c) 2025 [Team 25]
+Copyright (c) 2025 Team 25
