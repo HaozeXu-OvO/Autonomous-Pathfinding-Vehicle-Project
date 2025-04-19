@@ -7,18 +7,21 @@ Liyuan yu(3047156)
 Yihan Wang(3047384)
 Zonglin Li(2964559)
 
-##  Team roles and responsibilities
-Runxin Wang(2960774)  
-Haoze Xu(3016472)
-Liyuan yu(3047156)
-Yihan Wang(3047384)
-Zonglin Li(2964559)
+## Team Roles and Responsibilities
+
+| Name               | Student ID | Responsibilities                                                                |
+|--------------------|------------|---------------------------------------------------------------------------------|
+| Runxin Wang        | 2960774    | Responsible for the design of the car and the display of the video.             |
+| Haoze Xu           | 3016472    | Program editor, car debugging, team leader, task assignment.                    |
+| Liyuan Yu          | 3047156    | Participated in programming of the car and editing the GitHub repository.       |
+| Yihan Wang         | 3047384    | Program editing, car debugging, and function testing.                           |
+| Zonglin Li         | 2964559    | Report writing, device procurement, PPT content creation, and video recording.  |
+
 
 ##  Project Description
 This project is a real-time embedded system based on a Raspberry Pi, implementing a dual-mode control car:
 1. **Automatic Line Following** using infrared sensors.
 2. **Remote Control** via socket communication over TCP.
-
 The project is built entirely in C++ using the WiringPi library and demonstrates event-driven programming through multithreading and non-blocking socket handling.
 
 ##  Features
