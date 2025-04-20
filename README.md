@@ -1,7 +1,7 @@
 # Autonomous-Pathfinding-Vehicle-Project
 [![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi-red)](https://www.raspberrypi.com/)
 [![Language](https://img.shields.io/badge/Language-C++-blue)](https://isocpp.org/)
-[![Bilibili](https://img.shields.io/badge/Bilibili-视频演示-ff69b4)](https://b23.tv/2XWn9GX)
+[![Bilibili](https://img.shields.io/badge/Bilibili-Video-ff69b4)](https://b23.tv/2XWn9GX)
 [![YouTube](https://img.shields.io/badge/YouTube-Video%20Demo-ff0000)](#)
 
 ##  Authors
