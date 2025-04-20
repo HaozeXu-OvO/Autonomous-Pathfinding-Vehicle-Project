@@ -2,11 +2,15 @@
 
 ## I. Function Introduction
 
-This project is an embedded vehicle system based on Raspberry Pi and the WiringPi library. It mainly has the following functions:
-
+This project is an embedded vehicle system based on Raspberry Pi and the WiringPi library. 
+![picture 1](https://github.com/user-attachments/assets/5d78183e-668a-4abd-856c-95542a9bfdac)
+![picture 2](https://github.com/user-attachments/assets/29398bf5-324a-4c91-b919-0ff46dca3d73)
+It mainly has the following functions:
 - **Automatic trajectory following**: Uses front sensors to detect ground paths, allowing the car to follow a preset trajectory.
 - **Automatic stop/steering to avoid obstacles**: When the infrared sensor detects an obstacle, the car either stops or steers to avoid it.
 - **WiFi remote control**: Connects to a PC via a WiFi module, enabling real-time remote control and monitoring.
+![picture 3](https://github.com/user-attachments/assets/275deb9a-4c55-40c3-85db-36b11c284790)
+![picture 4](https://github.com/user-attachments/assets/57bd90e7-7a69-4630-89a4-875a37a30ccb)
 
 ## II. Code Fundamentals
 
@@ -23,6 +27,8 @@ This project is an embedded vehicle system based on Raspberry Pi and the WiringP
 - Controls forward, stop, turn using high/low combinations of four motor pins.
 - `processSensors()` determines logic based on LEFT, RIGHT, BLEFT, BRIGHT sensors.
 - Calls appropriate motion methods (`runForward`, `turnLeft`, `turnRight`, `brake`).
+![picture 5](https://github.com/user-attachments/assets/85449cb2-8b17-4c60-b46c-61d8b071324b)
+![picture 6](https://github.com/user-attachments/assets/3ec08406-d127-4cb6-879c-19d4c4275f13)
 
 ### 4. Non-blocking Main Loop and Signal Processing
 - Main loop only uses `while (true)` with sleep.
