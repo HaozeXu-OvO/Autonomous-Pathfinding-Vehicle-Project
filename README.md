@@ -1,7 +1,6 @@
 # Autonomous-Pathfinding-Vehicle-Project
 
-![Uploading efef5132e0ed9fa067b3fb223c5d83f.jpg…]()
-
+![efef5132e0ed9fa067b3fb223c5d83f](https://github.com/user-attachments/assets/e7e53a68-35a7-4ce6-9f35-9f7b7ff200f1)
 [![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi-red)](https://www.raspberrypi.com/)
 [![Language](https://img.shields.io/badge/Language-C++-blue)](https://isocpp.org/)
 [![Bilibili](https://img.shields.io/badge/Bilibili-Video-ff69b4)](https://b23.tv/2XWn9GX)
