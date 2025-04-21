@@ -1,0 +1,62 @@
+Problem with existing code:
+
+The existing sensor handling is timed polling, not event driven. It should be changed to use the interrupt function of the GPIO to trigger a callback when the sensor state changes.
+
+
+Modify the code:
+
+1. Set the sensor pin to interrupt mode and use wiringPiISR to register the callback function. For example, call the handler function when the state of the LEFT or RIGHT pin changes.
+
+2. In the callback function, process the sensor status and call the corresponding motor control method.
+
+3. Refactor the InfraredTracking class to separate hardware control and logic processing for testing purposes.
+
+4. write unit tests that use simulated GPIO classes to verify correct motor control for different sensor states.
+
+
+This implementation contains the following improvements:
+
+Use of interface abstraction (GpioWrapper) to separate hardware access from business logic for easy unit testing
+
+Implementing an event-driven architecture using interrupt-driven design (wiringPiISR)
+
+Sensor interrupts are handled in a separate thread
+
+Completely eliminates blocking calls, the main loop is only used to keep the program running
+
+Includes test cases from the Google Test unit testing framework.
+
+Signal handling implemented for graceful exits
+
+Manage resources following RAII principles
+
+To compile and run this project:
+
+Install the dependencies:
+
+sudo apt-get install wiringpi g++ libgtest-dev cmake
+Compile the main program:
+
+g++ -std=c++11 -o tracker main.cpp infrared_tracking.cpp -lwiringPi
+Compile and run the tests:
+
+g++ -std=c++11 -o tests test_infrared_tracking.cpp infrared_tracking.cpp -lgtest -lgtest_main -pthread
+. /tests
+
+This implementation matches:
+
+Running in a pure Linux environment
+
+Object-oriented design
+
+Complete unit testing
+
+Event-driven architecture (using hardware interrupts)
+
+Non-blocking calls
+
+Multi-threaded processing
+
+Safe resource management
+
+Interrupts are triggered when the sensor state changes, processing the sensor data
