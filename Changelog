@@ -1,8 +1,6 @@
 # Changelog
-
-## [2025-04-19]
+## [2025-04-20]
 ### Added
--  Upload `tracking2.0.rar`，
 -  Upload `tracking2.0.zip`，The function is basically completed
 
 ## [2025-04-15]
@@ -13,6 +11,6 @@
 ## [2025-04-05]
 ### Added
 - Upload `PC control app.rar`, including the small program for PC control
-- Upload `XJ5.cpp` main program code
+- Upload `Tracking and obstacle avoidance.cpp` main program code
 - Upload `wifi1.cpp`, wireless communication related source code
  （Initial completion of the car movement）
